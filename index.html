@@ -1,33 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Positioning and floating elements</title>
-    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    <nav>
-        <div>
-            <a href="#">
-                <img class="nav-icons" src="./assets/menu.svg" alt="menu-icon">
-            </a>
-            <a href="#">
-                <img class="nav-icons" src="./assets/search.svg" alt="search-icon">
-            </a>
-            <a href="#">
-                space & cosmos
-            </a>
-        </div>
-        <img class="logo" src="./assets/NYTlogo.png" alt="NYT-logo">
-        <div>
-            <a href="#">Subscribe now</a>
-            <button type="button" class="btn" >Log in</button>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Lora:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav class="d-flex">
+      <div class="nav-item d-flex">
+        <a href="#">
+          <img class="nav-icons" src="./assets/menu.svg" alt="menu-icon" />
+        </a>
+        <a href="#">
+          <img class="nav-icons" src="./assets/search.svg" alt="search-icon" />
+        </a>
+        <a href="#" class="nav-link">
+          Space & cosmos
+        </a>
+      </div>
+      <div class="logo-container">
+        <img class="nav-item logo" src="./assets/NYTLogo.svg" alt="NYT-logo" />
+      </div>
 
-        </div>
-
+      <div class="nav-item d-flex subscribe">
+        <a href="#">Subscribe now</a>
+        <button type="button" class="btn">Log in</button>
+      </div>
     </nav>
-    
-</body>
+  </body>
 </html>
