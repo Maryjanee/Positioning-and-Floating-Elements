@@ -121,7 +121,7 @@ h2,
   color: var(--dark-grey);
   font-family: var(--san-serif-font);
   font-weight: 600;
-  margin-bottom: 1rem;
+  margin-bottom: 0.6rem;
 }
 
 .author-name {
@@ -131,6 +131,11 @@ h2,
 
 .article-info {
   justify-content: space-between;
+}
+
+.date {
+  font-size: 0.8rem;
+  font-weight: lighter;
 }
 .article-icons-container {
   width: 40%;
