@@ -214,13 +214,16 @@ ul > button {
 
 aside {
   width: 17%;
+  position: absolute;
+  top: 110rem;
+  left: 80%;
 }
 
 .editors-heading {
   margin: 1.1rem 0;
 }
 .editors-picks {
-  border-top: 1px solid var(--grey);
+  border-top: 1px solid var(--very-light-grey);
   width: 100%;
 }
 .editors-item {
@@ -240,9 +243,41 @@ aside {
   background: var(--very-light-grey);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.8rem;
-
   align-items: flex-start;
 }
-.aldana {
+
+.space-grid-info {
+  margin-top: 5rem;
+  width: 70%;
+  height: 50rem;
+  }
+
+  .space-grid-info * {
   font-family: var(--san-serif-font);
+  line-height: 1rem;
+  color: var(--grey);
+ }
+ .space-grid-info h3 {
+   color: var(--black);
+   margin-bottom: 1rem;
+ }
+.space-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 50%);
+  grid-gap: 1.1rem;
+  margin-top: 1.1rem;
+  font-size: 0.9rem;
+  
+  
+}
+
+.space-grid-item img {
+  height: 50%;
+  margin-bottom: 1rem;
+}
+.space-grid-item span {
+  text-transform: uppercase;
+  color: var(--black);
+  font-weight: 700;
 }
