@@ -1,7 +1,10 @@
 :root {
   --black: #000;
   --white: #fff;
-  --san-serif-font: "Lato", sans-serif;
+  --grey: #666;
+  --light-grey: #888;
+  --dark-grey: #333;
+  --san-serif-font: "Poppins", sans-serif;
   --serif-font: "Lora", serif;
 }
 
@@ -59,7 +62,6 @@ nav {
   flex: 1;
 }
 
-
 .nav-item > a:nth-child(3) {
   text-transform: uppercase;
   font-size: 1rem;
@@ -82,15 +84,50 @@ nav {
 main {
   width: 100%;
   justify-content: center;
+  flex-direction: column;
 }
 
 header {
   margin-top: 5rem;
-  width: 58.875rem;
+  width: 70.875rem;
 }
 
-.header-picture {
-  height: 53rem;
+h1 {
+  width: 35rem;
+  margin: 1.5rem auto;
+  font-style: italic;
+  font-size: 2.2rem;
 }
 
+figcaption {
+  font-size: 0.875rem;
+  color: var(--grey);
+  width: 80%;
+  margin: 0.3rem;
+}
+.credit {
+  color: var(--light-grey);
+  font-size: 0.8rem;
+}
 
+#article {
+  width: 40%;
+  margin: 2.5rem auto;
+}
+h2,
+.author-name {
+  font-size: 0.9rem;
+  color: var(--dark-grey);
+  font-family: var(--san-serif-font);
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.author-name {
+  display: inline-block;
+  margin-left: 0.3rem;
+}
+
+.article-info {
+  justify-content: space-between;
+}
