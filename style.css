@@ -2,6 +2,7 @@
   --black: #000;
   --white: #fff;
   --grey: #666;
+  --very-light-grey: #eee;
   --light-grey: #888;
   --dark-grey: #333;
   --san-serif-font: "Poppins", sans-serif;
@@ -130,4 +131,28 @@ h2,
 
 .article-info {
   justify-content: space-between;
+}
+.article-icons-container {
+  width: 40%;
+  justify-content: space-between;
+}
+
+.article-icons {
+  border-radius: 50%;
+  width: 1.5rem;
+  height: 1.5rem;
+  background: var(--very-light-grey);
+  text-align: center;
+  justify-content: center;
+}
+
+.icons {
+  width: 1rem;
+  height: 1rem;
+}
+.right-icons {
+  width: 1.4rem;
+}
+ul > button {
+  padding: 1rem;
 }
