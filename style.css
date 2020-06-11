@@ -6,6 +6,7 @@
   --light-grey: #888;
   --dark-grey: #333;
   --blue: #326891;
+  --line-grey: rgb(204, 204, 204);
   --san-serif-font: "Poppins", sans-serif;
   --serif-font: "Lora", serif;
 }
@@ -181,4 +182,25 @@ ul > button {
   display: inline;
   text-decoration: underline;
   color: var(--blue) ;
+}
+
+.login-invitation {
+  width: 20rem;
+  margin: 2rem auto;
+  text-align: center;
+}
+.login-invitation a, .login-invitation p {
+  font-size: 0.9rem;
+  font-weight: 600;
+  font-family: var(--san-serif-font);
+}
+.login-invitation a {
+  color: var(--blue);
+  
+}
+.line {
+  display: block;
+  width: 5rem;
+  border: 0.6px solid var(--line-grey);
+  margin: 1rem auto;
 }
