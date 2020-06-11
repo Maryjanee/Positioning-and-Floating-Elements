@@ -117,6 +117,7 @@ figcaption {
   width: 45%;
   margin: 2.5rem auto;
 }
+
 h2,
 .author-name {
   font-size: 0.9rem;
@@ -209,4 +210,39 @@ ul > button {
   margin-top: 4rem;
   margin-bottom: 1rem;
   font-size: 1.25rem;
+}
+
+aside {
+  width: 17%;
+}
+
+.editors-heading {
+  margin: 1.1rem 0;
+}
+.editors-picks {
+  border-top: 1px solid var(--grey);
+  width: 100%;
+}
+.editors-item {
+  margin-bottom: 1rem;
+  padding: 0.6rem;
+}
+.editors-picks img {
+  width: 33%;
+  margin-right: 0.7rem;
+}
+.editors-links {
+  font-size: 0.9rem;
+  padding-right: 0.3rem;
+  color: var(--black);
+}
+.paid-post {
+  background: var(--very-light-grey);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+
+  align-items: flex-start;
+}
+.aldana {
+  font-family: var(--san-serif-font);
 }
