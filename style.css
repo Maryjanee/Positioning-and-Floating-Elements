@@ -114,7 +114,7 @@ figcaption {
 }
 
 #article {
-  width: 50%;
+  width: 45%;
   margin: 2.5rem auto;
 }
 h2,
@@ -167,7 +167,7 @@ ul > button {
 .article-content {
   margin-bottom: 1rem;
   font-size: 1.3rem;
-  color: var(--dark-grey)
+  color: var(--dark-grey);
 }
 
 .article-content:first-child {
@@ -181,7 +181,7 @@ ul > button {
 .article-links {
   display: inline;
   text-decoration: underline;
-  color: var(--blue) ;
+  color: var(--blue);
 }
 
 .login-invitation {
@@ -189,18 +189,24 @@ ul > button {
   margin: 2rem auto;
   text-align: center;
 }
-.login-invitation a, .login-invitation p {
+.login-invitation a,
+.login-invitation p {
   font-size: 0.9rem;
   font-weight: 600;
   font-family: var(--san-serif-font);
 }
 .login-invitation a {
   color: var(--blue);
-  
 }
 .line {
   display: block;
   width: 5rem;
   border: 0.6px solid var(--line-grey);
   margin: 1rem auto;
+}
+
+.article-subtitle {
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
 }
