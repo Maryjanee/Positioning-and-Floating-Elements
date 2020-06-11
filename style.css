@@ -112,7 +112,7 @@ figcaption {
 }
 
 #article {
-  width: 40%;
+  width: 50%;
   margin: 2.5rem auto;
 }
 h2,
@@ -160,4 +160,14 @@ h2,
 }
 ul > button {
   padding: 1rem;
+}
+
+.article-content {
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  color: var(--dark-grey)
+}
+
+.article-content:first-child {
+  margin-top: 1rem;
 }
