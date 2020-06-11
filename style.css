@@ -5,6 +5,7 @@
   --very-light-grey: #eee;
   --light-grey: #888;
   --dark-grey: #333;
+  --blue: #326891;
   --san-serif-font: "Poppins", sans-serif;
   --serif-font: "Lora", serif;
 }
@@ -90,7 +91,7 @@ main {
 
 header {
   margin-top: 5rem;
-  width: 70.875rem;
+  width: 70%;
 }
 
 h1 {
@@ -170,4 +171,14 @@ ul > button {
 
 .article-content:first-child {
   margin-top: 1rem;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.article-links {
+  display: inline;
+  text-decoration: underline;
+  color: var(--blue) ;
 }
