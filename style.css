@@ -304,3 +304,9 @@ iframe {
   font-size: 0.9rem;
   padding-right: 10rem;
 }
+.article-image {
+  width: 50vw;
+}
+.article-image figcaption {
+  width: 95%;
+}
