@@ -447,20 +447,50 @@ footer {
   font-family: var(--san-serif-font);
   font-size: 0.8rem;
   padding: 0.25rem 0;
+  
 }
+
 .link-icon {
   width: 1.4rem;
 }
 .external-link {
   font-weight: 700;
-  font-family: var(--san-serif-font);
-  font-size: 0.9rem;
+ 
+  font-size: 1.2rem;
   text-transform: uppercase;
   color: var(--black);
   flex-direction: row;
+  margin-top: 0.3rem;
 }
 
 .external-link p {
-  font-size: 0.7rem;
-  margin-left: 0.8rem;
+  font-size: 0.8rem;
+  margin-left: 0.4rem;
+  font-family: var(--san-serif-font);
 }
+.ext-last-links {
+  color: var(--dark-grey);
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.line-space-links {
+  margin-bottom: 1.2rem;
+}
+.line-color {
+  border-color: var(--very-light-grey);
+}
+.footer-last-links {
+  width: 88%;
+  justify-content:space-between;
+  margin: 0.5rem auto;
+  padding: 0.7rem 0;
+  border-top: 1px solid var(--very-light-grey);
+}
+.footer-last-links li a {
+  font-size: 0.72rem;
+  color: var(--dark-grey);
+  padding: 0.7rem 0;
+  font-family: var(--san-serif-font);
+}
+
