@@ -310,3 +310,43 @@ iframe {
 .article-image figcaption {
   width: 95%;
 }
+.article-footer-text {
+  font-size: 0.8rem;
+  color: var(--grey);
+  font-family: var(--san-serif-font);
+}
+
+.article-footer-links {
+  display: inline;
+  color: var(--grey);
+  text-decoration: underline;
+  padding-right: 0.2rem;
+  line-height: 0.8rem;
+}
+.article-footer-social {
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 2rem;
+}
+.article-footer-social button {
+  width: 55%;
+  background: var(--blue);
+  padding: 0.5rem 0;
+  color: var(--white);
+  font-family: var(--san-serif-font);
+  border-radius: 0.2rem;
+  border: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.article-footer-social ul {
+  width: 100%;
+}
+
+.article-footer-icons {
+  width: 30%;
+}
+
+.article-footer-icons ul li:not(:last-child) {
+  margin-right: 2rem;
+}
