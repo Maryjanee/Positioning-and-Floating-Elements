@@ -293,3 +293,14 @@ aside {
   color: var(--dark-grey);
   font-size: 0.9rem;
 }
+
+iframe {
+  width: 95%;
+  height: 22rem;
+  margin: 0 auto;
+}
+.article-video p {
+  color: var(--grey);
+  font-size: 0.9rem;
+  padding-right: 10rem;
+}
