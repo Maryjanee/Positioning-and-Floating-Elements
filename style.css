@@ -113,7 +113,7 @@ figcaption {
   font-size: 0.8rem;
 }
 
-#article {
+.article {
   width: 45%;
   margin: 2.5rem auto;
 }
@@ -214,13 +214,17 @@ ul > button {
 
 aside {
   width: 17%;
+  position: absolute;
+  top: 110rem;
+  left: 80%;
+  z-index: -1;
 }
 
 .editors-heading {
   margin: 1.1rem 0;
 }
 .editors-picks {
-  border-top: 1px solid var(--grey);
+  border-top: 1px solid var(--very-light-grey);
   width: 100%;
 }
 .editors-item {
@@ -240,6 +244,52 @@ aside {
   background: var(--very-light-grey);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.8rem;
-
   align-items: flex-start;
+}
+
+.space-grid-info {
+  width: 70vw;
+}
+.space-grid-info h3 {
+  margin-bottom: 0.3rem;
+}
+
+.space-grid-description {
+  color: var(--grey);
+  font-size: 1rem;
+}
+
+.space-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  background-image: url(./assets/space-grid-background.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  grid-column-gap: 0.3rem;
+}
+
+.space-grid-text {
+  margin-top: 60%;
+  font-size: 0.9rem;
+  font-family: var(--san-serif-font);
+  line-height: 1.1rem;
+  color: var(--dark-grey);
+}
+
+.space-grid-text span {
+  color: var(--black);
+  font-weight: 700;
+  font-family: var(--san-serif-font);
+}
+.line-2 {
+  display: inline-block;
+  border: 1px solid var(--black);
+  width: 5rem;
+  margin: 1rem 0;
+}
+.credit-2 * {
+  font-family: var(--san-serif-font);
+  color: var(--dark-grey);
+  font-size: 0.9rem;
 }
