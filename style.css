@@ -353,20 +353,18 @@ iframe {
 .article-footer-grid {
   display: grid;
   width: 90%;
-  grid-template-columns: 4fr 1fr;
+  grid-template-columns: 3fr 1fr;
   grid-column-gap: 2rem;
 }
 .footer-secondary-grid {
   display: grid;
-  
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-column-gap: 0rem;
 
+  grid-template-columns: repeat(3, 1fr);
+
+  grid-column-gap: 0rem;
 }
-.footer-secondary-grid img{
+.footer-secondary-grid img {
   width: 93%;
-  
 }
 .grid-title {
   color: var(--black);
@@ -385,22 +383,84 @@ iframe {
   color: var(--grey);
   text-align: right;
   margin-bottom: 0.4rem;
-  
 }
 .footer-secondary-grid a {
   width: 90%;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: var(--black);
   font-weight: 500;
   margin-bottom: 0.4rem;
 }
-.article-footer-card {
- 
-  
-}
+
 .grid-date {
   color: var(--grey);
   font-family: var(--san-serif-font);
   font-size: 0.7rem;
   padding-bottom: 0.5rem;
+}
+
+.grid-links {
+  padding: 1.2rem 0;
+  border-top: 1px solid var(--very-light-grey);
+  border-bottom: 1px solid var(--very-light-grey);
+}
+
+.grid-links a {
+  color: var(--black);
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+footer {
+  width: 90%;
+  margin: 0 auto;
+}
+.footer-header {
+  justify-content: space-between;
+  padding: 0.6rem 0;
+}
+.footer-nav {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+.footer-lines {
+  border-top: 2px solid var(--light-grey);
+  border-bottom: 1px solid var(--light-grey);
+  padding: 1px;
+  display: block;
+  margin-top: 3rem;
+}
+.footer-home-link {
+  color: var(--blue);
+  font-size: 0.7rem;
+  font-family: var(--san-serif-font);
+}
+.footer-titles {
+  text-transform: uppercase;
+  font-family: var(--san-serif-font);
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: var(--dark-grey);
+}
+
+.footer-links-section li a {
+  color: var(--dark-grey);
+  font-family: var(--san-serif-font);
+  font-size: 0.8rem;
+  padding: 0.25rem 0;
+}
+.link-icon {
+  width: 1.4rem;
+}
+.external-link {
+  font-weight: 700;
+  font-family: var(--san-serif-font);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  color: var(--black);
+  flex-direction: row;
+}
+
+.external-link p {
+  font-size: 0.7rem;
+  margin-left: 0.8rem;
 }
