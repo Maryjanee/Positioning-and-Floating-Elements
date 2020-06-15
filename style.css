@@ -49,16 +49,17 @@ img {
 .btn {
   border-radius: 0.3rem;
   color: var(--white);
-  background: var(--black);
+  background: var(--blue);
   padding: 0.4rem;
   font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  font-family: var(--san-serif-font);
+  border: 1px solid var(--blue);
 }
 
-.subscribe > a {
-  color: var(--black);
-  text-decoration: underline;
-  font-family: var(--san-serif-font);
-  margin-right: 1.5rem;
+.subscribe-btn {
+  margin-right: 0.6rem;
 }
 
 .login-invitation a {
@@ -104,7 +105,7 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid var(--very-light-grey);
   width: 100%;
   padding: 0.3rem 1.3rem;
   background-color: var(--white);
@@ -257,7 +258,6 @@ aside {
   position: absolute;
   top: 110rem;
   left: 80%;
-  
 }
 
 .editors-heading {
@@ -283,6 +283,10 @@ aside {
   font-size: 0.9rem;
   padding-right: 0.3rem;
   color: var(--black);
+}
+
+.editors-links:hover {
+  text-decoration: underline;
 }
 
 .paid-post {
@@ -539,4 +543,32 @@ footer {
   margin: 0.5rem auto;
   padding: 0.7rem 0;
   border-top: 1px solid var(--very-light-grey);
+}
+
+.sticky-footer {
+  width: 100%;
+  padding: 1rem 10rem;
+  position: sticky;
+  justify-content: flex-end;
+  align-items: center;
+  bottom: 0;
+  border-top: 1px solid var(--dark-grey);
+  background: var(--white);
+  z-index: 2;
+}
+.info,
+.expand-sticky-footer p {
+  font-size: 0.8rem;
+  font-family: var(--san-serif-font);
+}
+.expand-sticky-footer {
+  margin-left: 22rem;
+}
+.expand-sticky-footer p {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.expand-sticky-footer img {
+  margin-left: 2rem;
 }
