@@ -443,7 +443,7 @@ footer {
 }
 
 .footer-links-section li a {
-  color: var(--dark-grey);
+  color:var(--black);
   font-family: var(--san-serif-font);
   font-size: 0.8rem;
   padding: 0.25rem 0;
@@ -492,5 +492,8 @@ footer {
   color: var(--dark-grey);
   padding: 0.7rem 0;
   font-family: var(--san-serif-font);
+}
+.footer-last-links li a:hover {
+  text-decoration: underline;
 }
 
