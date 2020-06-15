@@ -556,14 +556,17 @@ footer {
   background: var(--white);
   z-index: 2;
 }
+
 .info,
 .expand-sticky-footer p {
   font-size: 0.8rem;
   font-family: var(--san-serif-font);
 }
+
 .expand-sticky-footer {
   margin-left: 22rem;
 }
+
 .expand-sticky-footer p {
   font-weight: 700;
   text-transform: uppercase;
