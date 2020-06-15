@@ -491,17 +491,6 @@ footer {
   color: var(--dark-grey);
 }
 
-<<<<<<< HEAD
-.footer-links-section li a {
-  color:var(--black);
-  font-family: var(--san-serif-font);
-  font-size: 0.8rem;
-  padding: 0.25rem 0;
-  
-}
-
-=======
->>>>>>> origin/ArticlePage2
 .link-icon {
   width: 1.4rem;
 }
@@ -543,16 +532,3 @@ footer {
   padding: 0.7rem 0;
   border-top: 1px solid var(--very-light-grey);
 }
-<<<<<<< HEAD
-.footer-last-links li a {
-  font-size: 0.72rem;
-  color: var(--dark-grey);
-  padding: 0.7rem 0;
-  font-family: var(--san-serif-font);
-}
-.footer-last-links li a:hover {
-  text-decoration: underline;
-}
-
-=======
->>>>>>> origin/ArticlePage2
