@@ -108,6 +108,7 @@ nav {
   width: 100%;
   padding: 0.3rem 1.3rem;
   background-color: var(--white);
+  z-index: 3;
 }
 
 .nav-item {
@@ -256,7 +257,7 @@ aside {
   position: absolute;
   top: 110rem;
   left: 80%;
-  z-index: -1;
+  
 }
 
 .editors-heading {
@@ -292,7 +293,9 @@ aside {
 }
 
 .space-grid-info {
-  width: 70vw;
+  position: relative;
+  right: 9rem;
+  width: 65vw;
 }
 
 .space-grid-info h3 {
@@ -311,14 +314,14 @@ aside {
   background-image: url(./assets/space-grid-background.png);
   background-size: contain;
   background-repeat: no-repeat;
-  grid-column-gap: 0.3rem;
+  grid-column-gap: 0.4rem;
 }
 
 .space-grid-text {
-  margin-top: 60%;
-  font-size: 0.9rem;
+  margin-top: 58%;
+  font-size: 0.8rem;
   font-family: var(--san-serif-font);
-  line-height: 1.1rem;
+  line-height: 1rem;
   color: var(--dark-grey);
 }
 
@@ -342,23 +345,28 @@ aside {
 }
 
 iframe {
-  width: 95%;
+  width: 100%;
   height: 22rem;
-  margin: 0 auto;
+  margin-top: 2rem;
 }
 
 .article-video p {
   color: var(--grey);
   font-size: 0.9rem;
   padding-right: 10rem;
+  margin-bottom: 2rem;
 }
 
 .article-image {
+  position: relative;
+  right: 2.4rem;
   width: 50vw;
+  margin-top: 2rem;
 }
 
 .article-image figcaption {
   width: 95%;
+  margin-bottom: 2rem;
 }
 
 .article-footer-text {
