@@ -26,6 +26,7 @@ a {
   text-decoration: none;
   display: block;
 }
+
 img {
   width: 100%;
 }
@@ -38,17 +39,65 @@ img {
 .logo-container {
   width: 12rem;
 }
+
 .nav-icons {
   width: 0.9rem;
   margin-right: 1.5rem;
   align-self: center;
 }
+
 .btn {
   border-radius: 0.3rem;
   color: var(--white);
   background: var(--black);
   padding: 0.4rem;
   font-weight: 700;
+}
+
+.subscribe > a {
+  color: var(--black);
+  text-decoration: underline;
+  font-family: var(--san-serif-font);
+  margin-right: 1.5rem;
+}
+
+.login-invitation a {
+  color: var(--blue);
+}
+
+.login-invitation a,
+.login-invitation p {
+  font-size: 0.9rem;
+  font-weight: 600;
+  font-family: var(--san-serif-font);
+}
+
+.grid-links a {
+  color: var(--black);
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.footer-secondary-grid a {
+  width: 90%;
+  font-size: 1.1rem;
+  color: var(--black);
+  font-weight: 500;
+  margin-bottom: 0.4rem;
+}
+
+.footer-links-section li a {
+  color: var(--dark-grey);
+  font-family: var(--san-serif-font);
+  font-size: 0.8rem;
+  padding: 0.25rem 0;
+}
+
+.footer-last-links li a {
+  font-size: 0.72rem;
+  color: var(--dark-grey);
+  padding: 0.7rem 0;
+  font-family: var(--san-serif-font);
 }
 
 nav {
@@ -77,12 +126,6 @@ nav {
 .subscribe {
   justify-content: flex-end;
 }
-.subscribe > a {
-  color: var(--black);
-  text-decoration: underline;
-  font-family: var(--san-serif-font);
-  margin-right: 1.5rem;
-}
 
 main {
   width: 100%;
@@ -108,6 +151,7 @@ figcaption {
   width: 80%;
   margin: 0.3rem;
 }
+
 .credit {
   color: var(--light-grey);
   font-size: 0.8rem;
@@ -140,6 +184,7 @@ h2,
   font-size: 0.8rem;
   font-weight: lighter;
 }
+
 .article-icons-container {
   width: 40%;
   justify-content: space-between;
@@ -158,9 +203,11 @@ h2,
   width: 1rem;
   height: 1rem;
 }
+
 .right-icons {
   width: 1.4rem;
 }
+
 ul > button {
   padding: 1rem;
 }
@@ -190,15 +237,7 @@ ul > button {
   margin: 2rem auto;
   text-align: center;
 }
-.login-invitation a,
-.login-invitation p {
-  font-size: 0.9rem;
-  font-weight: 600;
-  font-family: var(--san-serif-font);
-}
-.login-invitation a {
-  color: var(--blue);
-}
+
 .line {
   display: block;
   width: 5rem;
@@ -223,23 +262,28 @@ aside {
 .editors-heading {
   margin: 1.1rem 0;
 }
+
 .editors-picks {
   border-top: 1px solid var(--very-light-grey);
   width: 100%;
 }
+
 .editors-item {
   margin-bottom: 1rem;
   padding: 0.6rem;
 }
+
 .editors-picks img {
   width: 33%;
   margin-right: 0.7rem;
 }
+
 .editors-links {
   font-size: 0.9rem;
   padding-right: 0.3rem;
   color: var(--black);
 }
+
 .paid-post {
   background: var(--very-light-grey);
   font-family: Arial, Helvetica, sans-serif;
@@ -250,6 +294,7 @@ aside {
 .space-grid-info {
   width: 70vw;
 }
+
 .space-grid-info h3 {
   margin-bottom: 0.3rem;
 }
@@ -282,12 +327,14 @@ aside {
   font-weight: 700;
   font-family: var(--san-serif-font);
 }
+
 .line-2 {
   display: inline-block;
   border: 1px solid var(--black);
   width: 5rem;
   margin: 1rem 0;
 }
+
 .credit-2 * {
   font-family: var(--san-serif-font);
   color: var(--dark-grey);
@@ -299,17 +346,21 @@ iframe {
   height: 22rem;
   margin: 0 auto;
 }
+
 .article-video p {
   color: var(--grey);
   font-size: 0.9rem;
   padding-right: 10rem;
 }
+
 .article-image {
   width: 50vw;
 }
+
 .article-image figcaption {
   width: 95%;
 }
+
 .article-footer-text {
   font-size: 0.8rem;
   color: var(--grey);
@@ -323,11 +374,13 @@ iframe {
   padding-right: 0.2rem;
   line-height: 0.8rem;
 }
+
 .article-footer-social {
   justify-content: space-between;
   width: 100%;
   margin-top: 2rem;
 }
+
 .article-footer-social button {
   width: 55%;
   background: var(--blue);
@@ -339,6 +392,7 @@ iframe {
   text-transform: uppercase;
   font-weight: 700;
 }
+
 .article-footer-social ul {
   width: 100%;
 }
@@ -350,28 +404,30 @@ iframe {
 .article-footer-icons ul li:not(:last-child) {
   margin-right: 2rem;
 }
+
 .article-footer-grid {
   display: grid;
   width: 90%;
   grid-template-columns: 3fr 1fr;
   grid-column-gap: 2rem;
 }
+
 .footer-secondary-grid {
   display: grid;
-
   grid-template-columns: repeat(3, 1fr);
-
-  grid-column-gap: 0rem;
 }
+
 .footer-secondary-grid img {
   width: 93%;
 }
+
 .grid-title {
   color: var(--black);
   font-size: 1.1rem;
   font-weight: 700;
   margin-bottom: 1rem;
 }
+
 .grid-line {
   border-top: 1px solid var(--black);
   padding-top: 1rem;
@@ -382,13 +438,6 @@ iframe {
   font-size: 0.7rem;
   color: var(--grey);
   text-align: right;
-  margin-bottom: 0.4rem;
-}
-.footer-secondary-grid a {
-  width: 90%;
-  font-size: 1.1rem;
-  color: var(--black);
-  font-weight: 500;
   margin-bottom: 0.4rem;
 }
 
@@ -405,23 +454,21 @@ iframe {
   border-bottom: 1px solid var(--very-light-grey);
 }
 
-.grid-links a {
-  color: var(--black);
-  font-weight: 500;
-  font-size: 1.1rem;
-}
 footer {
   width: 90%;
   margin: 0 auto;
 }
+
 .footer-header {
   justify-content: space-between;
   padding: 0.6rem 0;
 }
+
 .footer-nav {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
 }
+
 .footer-lines {
   border-top: 2px solid var(--light-grey);
   border-bottom: 1px solid var(--light-grey);
@@ -429,11 +476,13 @@ footer {
   display: block;
   margin-top: 3rem;
 }
+
 .footer-home-link {
   color: var(--blue);
   font-size: 0.7rem;
   font-family: var(--san-serif-font);
 }
+
 .footer-titles {
   text-transform: uppercase;
   font-family: var(--san-serif-font);
@@ -442,6 +491,7 @@ footer {
   color: var(--dark-grey);
 }
 
+<<<<<<< HEAD
 .footer-links-section li a {
   color:var(--black);
   font-family: var(--san-serif-font);
@@ -450,12 +500,14 @@ footer {
   
 }
 
+=======
+>>>>>>> origin/ArticlePage2
 .link-icon {
   width: 1.4rem;
 }
+
 .external-link {
   font-weight: 700;
- 
   font-size: 1.2rem;
   text-transform: uppercase;
   color: var(--black);
@@ -468,25 +520,30 @@ footer {
   margin-left: 0.4rem;
   font-family: var(--san-serif-font);
 }
+
 .ext-last-links {
   color: var(--dark-grey);
   font-size: 0.8rem;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 }
+
 .line-space-links {
   margin-bottom: 1.2rem;
 }
+
 .line-color {
   border-color: var(--very-light-grey);
 }
+
 .footer-last-links {
   width: 88%;
-  justify-content:space-between;
+  justify-content: space-between;
   margin: 0.5rem auto;
   padding: 0.7rem 0;
   border-top: 1px solid var(--very-light-grey);
 }
+<<<<<<< HEAD
 .footer-last-links li a {
   font-size: 0.72rem;
   color: var(--dark-grey);
@@ -497,3 +554,5 @@ footer {
   text-decoration: underline;
 }
 
+=======
+>>>>>>> origin/ArticlePage2
